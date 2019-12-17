@@ -1,0 +1,318 @@
+#---------------------------------------------------------------------
+# FILE NAME:    CathDomainDescriptionFile.v4.2.0
+# FILE DATE:    04.09.2017
+#
+# CATH VERSION: v4.2.0
+# VERSION DATE: 04.09.2017
+#
+# FILE FORMAT:  Cath Domain Description File (CDDF) Format 2.0
+#
+# FILE DESCRIPTION:
+# Contains a description of each protein domain in CATH (classes 1-4).
+#
+# This includes the overall PDB name and source information (from PDB file),
+# CATH superfamily number, CATH name of class, architecture and topology
+# (CATH homologous superfamily name is only included if it has been defined).
+# Also included is domain and segment information such as length, amino acid
+# sequence and domain boundary PDB residue identifiers.
+#
+# See 'README.file_formats' for file format information
+#---------------------------------------------------------------------
+FORMAT    CDDF1.0
+DOMAIN    1oaiA00
+VERSION   4.2.0
+VERDATE   04-Sep-2017
+NAME      Nuclear RNA export factor. Chain: a. Fragment: uba domain, residues 56
+NAME      1-619. Synonym: tap, tip associating protein, mRNA export factor  tap.
+NAME       Engineered: yes. Fxfg nucleoporin peptide. Chain: b. Fragment: nucleo
+NAME      porin peptide, residues 10-18. Engineered: yes
+SOURCE    Homo sapiens. Human. Organism_taxid: 9606.  Expressed in: escherichia 
+SOURCE    coli. Expression_system_taxid: 562.
+CATHCODE  1.10.8.10
+CLASS     Mainly Alpha
+ARCH      Orthogonal Bundle
+TOPOL     Helicase, Ruva Protein; domain 3
+HOMOL     DNA helicase RuvA subunit, C-terminal domain
+DLENGTH   59
+DSEQH     >pdb|1oaiA00
+DSEQS     PTLSPEQQEMLQAFSTQSGMNLEWSQKCLQDNNWDYTRSAQAFTHLKAKGEIPEVAFMK
+NSEGMENTS 1
+SEGMENT   1oaiA00:1:1
+SRANGE    START=561  STOP=619
+SLENGTH   59
+SSEQH     >pdb|1oaiA00:1:1
+SSEQS     PTLSPEQQEMLQAFSTQSGMNLEWSQKCLQDNNWDYTRSAQAFTHLKAKGEIPEVAFMK
+ENDSEG
+//
+FORMAT    CDDF1.0
+DOMAIN    1go5A00
+VERSION   4.2.0
+VERDATE   04-Sep-2017
+NAME      Tip associating protein. Chain: a. Fragment: residues 551-619. Synonym
+NAME      : tap, nuclear RNA export factor 1. Engineered: yes
+SOURCE    Homo sapiens. Human. Organism_taxid: 9606.  Expressed in: escherichia 
+SOURCE    coli. Expression_system_taxid: 511693.
+CATHCODE  1.10.8.10
+CLASS     Mainly Alpha
+ARCH      Orthogonal Bundle
+TOPOL     Helicase, Ruva Protein; domain 3
+HOMOL     DNA helicase RuvA subunit, C-terminal domain
+DLENGTH   69
+DSEQH     >pdb|1go5A00
+DSEQS     PAPTPSSSPVPTLSPEQQEMLQAFSTQSGMNLEWSQKCLQDNNWDYTRSAQAFTHLKAKGEIPEVAFMK
+NSEGMENTS 1
+SEGMENT   1go5A00:1:1
+SRANGE    START=2  STOP=70
+SLENGTH   69
+SSEQH     >pdb|1go5A00:1:1
+SSEQS     PAPTPSSSPVPTLSPEQQEMLQAFSTQSGMNLEWSQKCLQDNNWDYTRSAQAFTHLKAKGEIPEVAFMK
+ENDSEG
+//
+FORMAT    CDDF1.0
+DOMAIN    3frhA01
+VERSION   4.2.0
+VERDATE   04-Sep-2017
+NAME      16s rRNA methylase. Chain: a. Synonym: rmtb, 16s ribosomal RNA methyla
+NAME      se, rmtb protein. Engineered: yes
+SOURCE    Escherichia coli. Organism_taxid: 562. Gene: rmtb.  Expressed in: esch
+SOURCE    erichia coli. Expression_system_taxid: 562.
+CATHCODE  1.10.8.10
+CLASS     Mainly Alpha
+ARCH      Orthogonal Bundle
+TOPOL     Helicase, Ruva Protein; domain 3
+HOMOL     DNA helicase RuvA subunit, C-terminal domain
+DLENGTH   58
+DSEQH     >pdb|3frhA01
+DSEQS     YPMNINDALTSILASKKYRALCPDTVRRILTEEWGRHKSPKQTVEAARTRLHGICGAY
+NSEGMENTS 1
+SEGMENT   3frhA01:1:1
+SRANGE    START=-1  STOP=56
+SLENGTH   58
+SSEQH     >pdb|3frhA01:1:1
+SSEQS     YPMNINDALTSILASKKYRALCPDTVRRILTEEWGRHKSPKQTVEAARTRLHGICGAY
+ENDSEG
+//
+FORMAT    CDDF1.0
+DOMAIN    3friA01
+VERSION   4.2.0
+VERDATE   04-Sep-2017
+NAME      16s rRNA methylase. Chain: a. Synonym: rmtb, 16s ribosomal RNA methyla
+NAME      se, rmtb protein. Engineered: yes
+SOURCE    Escherichia coli. Organism_taxid: 562. Gene: rmtb.  Expressed in: esch
+SOURCE    erichia coli. Expression_system_taxid: 562.
+CATHCODE  1.10.8.10
+CLASS     Mainly Alpha
+ARCH      Orthogonal Bundle
+TOPOL     Helicase, Ruva Protein; domain 3
+HOMOL     DNA helicase RuvA subunit, C-terminal domain
+DLENGTH   54
+DSEQH     >pdb|3friA01
+DSEQS     NINDALTSILASKKYRALCPDTVRRILTEEWGRHKSPKQTVEAARTRLHGICGA
+NSEGMENTS 1
+SEGMENT   3friA01:1:1
+SRANGE    START=2  STOP=55
+SLENGTH   54
+SSEQH     >pdb|3friA01:1:1
+SSEQS     NINDALTSILASKKYRALCPDTVRRILTEEWGRHKSPKQTVEAARTRLHGICGA
+ENDSEG
+//
+FORMAT    CDDF1.0
+DOMAIN    3b89A01
+VERSION   4.2.0
+VERDATE   04-Sep-2017
+NAME      16s rRNA methylase. Chain: a. Synonym: 16s ribosomal RNA methylase. En
+NAME      gineered: yes
+SOURCE    Escherichia coli. Organism_taxid: 562. Gene: rmtb.  Expressed in: esch
+SOURCE    erichia coli. Expression_system_taxid: 562
+CATHCODE  1.10.8.10
+CLASS     Mainly Alpha
+ARCH      Orthogonal Bundle
+TOPOL     Helicase, Ruva Protein; domain 3
+HOMOL     DNA helicase RuvA subunit, C-terminal domain
+DLENGTH   54
+DSEQH     >pdb|3b89A01
+DSEQS     NINDALTSILASKKYRALCPDTVRRILTEEWGRHKSPKQTVEAARTRLHGICGA
+NSEGMENTS 1
+SEGMENT   3b89A01:1:1
+SRANGE    START=2  STOP=55
+SLENGTH   54
+SSEQH     >pdb|3b89A01:1:1
+SSEQS     NINDALTSILASKKYRALCPDTVRRILTEEWGRHKSPKQTVEAARTRLHGICGA
+ENDSEG
+//
+FORMAT    CDDF1.0
+DOMAIN    4g3oA00
+VERSION   4.2.0
+VERDATE   04-Sep-2017
+NAME      E3 ubiquitin-protein ligase amfr. Chain: a. Fragment: cue domain (unp 
+NAME      residues 456-498). Synonym: autocrine motility factor receptor, isofor
+NAME      m 2, amf receptor, isoform 2, ring finger protein 45, gp78. Engineered
+NAME      : yes
+SOURCE    Homo sapiens. Human. Organism_taxid: 9606. Gene: amfr, rnf45.  Express
+SOURCE    ed in: escherichia coli. Expression_system_taxid: 511693.
+CATHCODE  1.10.8.10
+CLASS     Mainly Alpha
+ARCH      Orthogonal Bundle
+TOPOL     Helicase, Ruva Protein; domain 3
+HOMOL     DNA helicase RuvA subunit, C-terminal domain
+DLENGTH   53
+DSEQH     >pdb|4g3oA00
+DSEQS     RGSENLYFQGQLNAMAHQIQEMFPQVPYHLVLQDLQLTRSVEITTDNILEGRI
+NSEGMENTS 1
+SEGMENT   4g3oA00:1:1
+SRANGE    START=446  STOP=498
+SLENGTH   53
+SSEQH     >pdb|4g3oA00:1:1
+SSEQS     RGSENLYFQGQLNAMAHQIQEMFPQVPYHLVLQDLQLTRSVEITTDNILEGRI
+ENDSEG
+//
+FORMAT    CDDF1.0
+DOMAIN    4heoA00
+VERSION   4.2.0
+VERDATE   04-Sep-2017
+NAME      Phosphoprotein. Chain: a, b. Fragment: c terminal domain. Synonym: pro
+NAME      tein p. Engineered: yes
+SOURCE    Hendra virus. Organism_taxid: 928303. Strain: horse/australia/hendra/1
+SOURCE    994. Gene: p/v/c.  Expressed in: escherichia coli. Expression_system_t
+SOURCE    axid: 469008.
+CATHCODE  1.10.8.10
+CLASS     Mainly Alpha
+ARCH      Orthogonal Bundle
+TOPOL     Helicase, Ruva Protein; domain 3
+HOMOL     DNA helicase RuvA subunit, C-terminal domain
+DLENGTH   53
+DSEQH     >pdb|4heoA00
+DSEQS     VADDASKDVVRTIRTHIKDRELRSELDYLNRAETDEEVQEVANTVNDIIDGNI
+NSEGMENTS 1
+SEGMENT   4heoA00:1:1
+SRANGE    START=2  STOP=56
+SLENGTH   53
+SSEQH     >pdb|4heoA00:1:1
+SSEQS     VADDASKDVVRTIRTHIKDRELRSELDYLNRAETDEEVQEVANTVNDIIDGNI
+ENDSEG
+//
+FORMAT    CDDF1.0
+DOMAIN    4heoB00
+VERSION   4.2.0
+VERDATE   04-Sep-2017
+NAME      Phosphoprotein. Chain: a, b. Fragment: c terminal domain. Synonym: pro
+NAME      tein p. Engineered: yes
+SOURCE    Hendra virus. Organism_taxid: 928303. Strain: horse/australia/hendra/1
+SOURCE    994. Gene: p/v/c.  Expressed in: escherichia coli. Expression_system_t
+SOURCE    axid: 469008.
+CATHCODE  1.10.8.10
+CLASS     Mainly Alpha
+ARCH      Orthogonal Bundle
+TOPOL     Helicase, Ruva Protein; domain 3
+HOMOL     DNA helicase RuvA subunit, C-terminal domain
+DLENGTH   57
+DSEQH     >pdb|4heoB00
+DSEQS     VADDASKDVVRTIRTHIKDRELRSELDYLNRAETDEEVQEVANTVNDIIDGNILEHH
+NSEGMENTS 1
+SEGMENT   4heoB00:1:1
+SRANGE    START=2  STOP=60
+SLENGTH   57
+SSEQH     >pdb|4heoB00:1:1
+SSEQS     VADDASKDVVRTIRTHIKDRELRSELDYLNRAETDEEVQEVANTVNDIIDGNILEHH
+ENDSEG
+//
+FORMAT    CDDF1.0
+DOMAIN    4wp2F00
+VERSION   4.2.0
+VERDATE   04-Sep-2017
+NAME      Putative mRNA export protein. Chain: a, b, c, d, e, f, g, h. Fragment:
+NAME       unp residues 600-657. Engineered: yes
+SOURCE    Chaetomium thermophilum. Organism_taxid: 759272. Strain: dsm 1495 / cb
+SOURCE    s 144.50 / imi 039719. Gene: ctht_0059630.  Expressed in: escherichia 
+SOURCE    coli. Expression_system_taxid: 562
+CATHCODE  1.10.8.10
+CLASS     Mainly Alpha
+ARCH      Orthogonal Bundle
+TOPOL     Helicase, Ruva Protein; domain 3
+HOMOL     DNA helicase RuvA subunit, C-terminal domain
+DLENGTH   55
+DSEQH     >pdb|4wp2F00
+DSEQS     ATKAQLIAEVSRRTGMNVEYSQMLTGAANWNLELALQSFEQQKANVPPEAFISQP
+NSEGMENTS 1
+SEGMENT   4wp2F00:1:1
+SRANGE    START=600  STOP=655
+SLENGTH   55
+SSEQH     >pdb|4wp2F00:1:1
+SSEQS     ATKAQLIAEVSRRTGMNVEYSQMLTGAANWNLELALQSFEQQKANVPPEAFISQP
+ENDSEG
+//
+FORMAT    CDDF1.0
+DOMAIN    4wp2B00
+VERSION   4.2.0
+VERDATE   04-Sep-2017
+NAME      Putative mRNA export protein. Chain: a, b, c, d, e, f, g, h. Fragment:
+NAME       unp residues 600-657. Engineered: yes
+SOURCE    Chaetomium thermophilum. Organism_taxid: 759272. Strain: dsm 1495 / cb
+SOURCE    s 144.50 / imi 039719. Gene: ctht_0059630.  Expressed in: escherichia 
+SOURCE    coli. Expression_system_taxid: 562
+CATHCODE  1.10.8.10
+CLASS     Mainly Alpha
+ARCH      Orthogonal Bundle
+TOPOL     Helicase, Ruva Protein; domain 3
+HOMOL     DNA helicase RuvA subunit, C-terminal domain
+DLENGTH   57
+DSEQH     >pdb|4wp2B00
+DSEQS     ATKAQLIAEVSRRTGMNVEYSQMLTGAANWNLELALQSFEQQKANVPPEAFISQPQV
+NSEGMENTS 1
+SEGMENT   4wp2B00:1:1
+SRANGE    START=600  STOP=657
+SLENGTH   57
+SSEQH     >pdb|4wp2B00:1:1
+SSEQS     ATKAQLIAEVSRRTGMNVEYSQMLTGAANWNLELALQSFEQQKANVPPEAFISQPQV
+ENDSEG
+//
+FORMAT    CDDF1.0
+DOMAIN    4wp2D00
+VERSION   4.2.0
+VERDATE   04-Sep-2017
+NAME      Putative mRNA export protein. Chain: a, b, c, d, e, f, g, h. Fragment:
+NAME       unp residues 600-657. Engineered: yes
+SOURCE    Chaetomium thermophilum. Organism_taxid: 759272. Strain: dsm 1495 / cb
+SOURCE    s 144.50 / imi 039719. Gene: ctht_0059630.  Expressed in: escherichia 
+SOURCE    coli. Expression_system_taxid: 562
+CATHCODE  1.10.8.10
+CLASS     Mainly Alpha
+ARCH      Orthogonal Bundle
+TOPOL     Helicase, Ruva Protein; domain 3
+HOMOL     DNA helicase RuvA subunit, C-terminal domain
+DLENGTH   57
+DSEQH     >pdb|4wp2D00
+DSEQS     ATKAQLIAEVSRRTGMNVEYSQMLTGAANWNLELALQSFEQQKANVPPEAFISQPQV
+NSEGMENTS 1
+SEGMENT   4wp2D00:1:1
+SRANGE    START=600  STOP=657
+SLENGTH   57
+SSEQH     >pdb|4wp2D00:1:1
+SSEQS     ATKAQLIAEVSRRTGMNVEYSQMLTGAANWNLELALQSFEQQKANVPPEAFISQPQV
+ENDSEG
+//
+FORMAT    CDDF1.0
+DOMAIN    4wp2H00
+VERSION   4.2.0
+VERDATE   04-Sep-2017
+NAME      Putative mRNA export protein. Chain: a, b, c, d, e, f, g, h. Fragment:
+NAME       unp residues 600-657. Engineered: yes
+SOURCE    Chaetomium thermophilum. Organism_taxid: 759272. Strain: dsm 1495 / cb
+SOURCE    s 144.50 / imi 039719. Gene: ctht_0059630.  Expressed in: escherichia 
+SOURCE    coli. Expression_system_taxid: 562
+CATHCODE  1.10.8.10
+CLASS     Mainly Alpha
+ARCH      Orthogonal Bundle
+TOPOL     Helicase, Ruva Protein; domain 3
+HOMOL     DNA helicase RuvA subunit, C-terminal domain
+DLENGTH   57
+DSEQH     >pdb|4wp2H00
+DSEQS     ATKAQLIAEVSRRTGMNVEYSQMLTGAANWNLELALQSFEQQKANVPPEAFISQPQV
+NSEGMENTS 1
+SEGMENT   4wp2H00:1:1
+SRANGE    START=600  STOP=657
+SLENGTH   57
+SSEQH     >pdb|4wp2H00:1:1
+SSEQS     ATKAQLIAEVSRRTGMNVEYSQMLTGAANWNLELALQSFEQQKANVPPEAFISQPQV
+ENDSEG
+//
