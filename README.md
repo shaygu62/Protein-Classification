@@ -1,7 +1,6 @@
 # 3D Data processing in structural biology research project
-#### Authors: Shay Guterman & Oren Wintner, Supervised by Dina Schneidman
+#### Authors: Shay Guterman & Oren Wintner, Supervised by Dina Schneidman at the Hebrew University of Jerusalem
 _______________________________________________
-Further explained at the power point presentation.
 
 ### Motivation: 
 Google deep mind team intreduced AI algorithms to the field of computational biology in order to solve unsolvable problems and accelerate demanding computations. Said algorithms can help us understand proteins better and can be applied to improve our health care and medicines.
@@ -28,3 +27,7 @@ We conjuctured that the network might not find the right input rotation, therefo
 ![prediction example](https://i.ibb.co/ZgS1Zpy/Accuracy-3.png)
 #### Confusin matrix on a subset of the families
 ![prediction example](https://i.ibb.co/LPLpTPx/conf-mat.png)
+
+
+
+Further explained at the power point presentation.
