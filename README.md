@@ -24,5 +24,7 @@ We adjusted the dropout, pushed each protein to be centered around zero, zero pa
 
 ### Final solution: 90% Accuracy
 We conjuctured that the network might not find the right input rotation, therefore, unable to classify the families. In order evaluate our cojecture we aligned the protein families using classical alignment algorithm before feeding it to the network. 
+#### Training plot of the accuracy on a subset of the families
+![prediction example](https://i.ibb.co/ZgS1Zpy/Accuracy-3.png)
 #### Confusin matrix on a subset of the families
 ![prediction example](https://i.ibb.co/LPLpTPx/conf-mat.png)
